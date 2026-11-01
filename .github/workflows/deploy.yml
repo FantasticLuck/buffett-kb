@@ -3,7 +3,7 @@ name: Deploy Quartz site to GitHub Pages
 on:
   push:
     branches:
-      - main # ⚠️ 确认你的默认分支名（main / master / v4）
+      - master # ⚠️ 确认你的默认分支名（main / master / v4）
   workflow_dispatch:
 
 permissions:
